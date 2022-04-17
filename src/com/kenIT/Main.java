@@ -62,15 +62,15 @@ public class Main {
 
         // equalsIgnoreCase method
         // Phương thức equalsIgnoreCase() so sánh hai chuỗi đưa ra dựa trên nội dung của chuỗi không phân biệt chữ hoa và chữ thường. Nếu hai chuỗi khác nhau nó trả về false. Nếu hai chuỗi bằng nhau nó trả về true.
-        String s1 = "Hello World";
-        String s2 = "Hello World";
-        String s3 = "hello world";
-        String s4 = "HelloWorld";
-        String s5 = "World";
-        System.out.println(s1.equalsIgnoreCase(s2));
-        System.out.println(s1.equalsIgnoreCase(s3));
-        System.out.println(s1.equalsIgnoreCase(s4));
-        System.out.println(s1.equalsIgnoreCase(s5));
+//        String s1 = "Hello World";
+//        String s2 = "Hello World";
+//        String s3 = "hello world";
+//        String s4 = "HelloWorld";
+//        String s5 = "World";
+//        System.out.println(s1.equalsIgnoreCase(s2));
+//        System.out.println(s1.equalsIgnoreCase(s3));
+//        System.out.println(s1.equalsIgnoreCase(s4));
+//        System.out.println(s1.equalsIgnoreCase(s5));
 
 
     }
