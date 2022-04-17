@@ -50,15 +50,15 @@ public class Main {
         //Phương thức equals() so sánh hai chuỗi đưa ra dựa trên nội dung của chuỗi. Nếu hai chuỗi khác nhau nó trả về false. Nếu hai chuỗi bằng nhau nó trả về true.
         //
         //Phương thức equals() của lớp String được ghi đè từ phương thức equals() của lớp Object.
-        String s1 = "Hello World";
-        String s2 = "hello world";
-        String s3 = "Hello World";
-        String s4 = "Hello";
-        String s5 = "World";
-        System.out.println(s1.equals(s2));
-        System.out.println(s1.equals(s3));
-        System.out.println(s1.equals(s4));
-        System.out.println(s1.equals(s5));
+//        String s1 = "Hello World";
+//        String s2 = "hello world";
+//        String s3 = "Hello World";
+//        String s4 = "Hello";
+//        String s5 = "World";
+//        System.out.println(s1.equals(s2));
+//        System.out.println(s1.equals(s3));
+//        System.out.println(s1.equals(s4));
+//        System.out.println(s1.equals(s5));
 
     }
 }
