@@ -78,13 +78,13 @@ public class Main {
         //Nếu bạn không chỉ định miền địa phương trong phương thức String.format(), nó sử dụng miền mặc bằng cách gọi phương thức Locale.getDefault().
         //
         //Phương thức format() của ngôn ngữ java là giống như hàm sprintf() trong C và printf() trong Java.
-        String name = "noo";
-        String sf1 = String.format("name is %s", name);
-        String sf2 = String.format("value is %f", 32.33434);
-        String sf3 = String.format("value is %32.8f", 32.33434);
-
-        System.out.println(sf1);
-        System.out.println(sf2);
-        System.out.println(sf3);
+//        String name = "noo";
+//        String sf1 = String.format("name is %s", name);
+//        String sf2 = String.format("value is %f", 32.33434);
+//        String sf3 = String.format("value is %32.8f", 32.33434);
+//
+//        System.out.println(sf1);
+//        System.out.println(sf2);
+//        System.out.println(sf3);
     }
 }
