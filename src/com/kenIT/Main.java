@@ -37,13 +37,28 @@ public class Main {
 
         // endsWith method()
         // Phương thức endsWith() kiểm tra nếu chuỗi này kết thúc với hậu tố nhất định. Nó trả về true nếu chuỗi này kết thúc với hậu tố đã cho, nếu khác thì trả về false.
+//        String s1 = "Hello World";
+//        System.out.println(s1.endsWith("d"));
+//        System.out.println(s1.endsWith("ld"));
+//        System.out.println(s1.endsWith("orld"));
+//        System.out.println(s1.endsWith("rld"));
+//        System.out.println(s1.endsWith("World"));
+//        System.out.println(s1.endsWith("Hello World"));
+//        System.out.println(s1.endsWith("o World"));
+
+        // equals method
+        //Phương thức equals() so sánh hai chuỗi đưa ra dựa trên nội dung của chuỗi. Nếu hai chuỗi khác nhau nó trả về false. Nếu hai chuỗi bằng nhau nó trả về true.
+        //
+        //Phương thức equals() của lớp String được ghi đè từ phương thức equals() của lớp Object.
         String s1 = "Hello World";
-        System.out.println(s1.endsWith("d"));
-        System.out.println(s1.endsWith("ld"));
-        System.out.println(s1.endsWith("orld"));
-        System.out.println(s1.endsWith("rld"));
-        System.out.println(s1.endsWith("World"));
-        System.out.println(s1.endsWith("Hello World"));
-        System.out.println(s1.endsWith("o World"));
+        String s2 = "hello world";
+        String s3 = "Hello World";
+        String s4 = "Hello";
+        String s5 = "World";
+        System.out.println(s1.equals(s2));
+        System.out.println(s1.equals(s3));
+        System.out.println(s1.equals(s4));
+        System.out.println(s1.equals(s5));
+
     }
 }
