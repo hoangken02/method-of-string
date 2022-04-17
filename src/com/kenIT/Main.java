@@ -93,5 +93,20 @@ public class Main {
 //        for (int i = 0; i < barr.length; i++) {
 //            System.out.println(barr[i]);
 //        }
+
+        // getChars method
+        //Phương thức getChars() sao chép nội dung của chuỗi thành mảng Char cụ thể. Có 4 đối số truyền vào phương thức getChars().
+        // srcBegin : vị trí bắt đầu sao chép
+        // srcEnd : vị trí cuối cùng sao chép
+        // mảng được sao chép
+        // dstBegin : vị trí bắt đầu gắn vào
+        String str = "hello Java how are you?";
+        char[] ch = new char[4];
+        try {
+            str.getChars(6, 10, ch, 0);
+            System.out.println(ch);
+        }catch (Exception e){
+            System.out.println(e);
+        }
     }
 }
