@@ -34,5 +34,16 @@ public class Main {
 //        System.out.println(s1.contains(s2));
 //        System.out.println(s1.contains("He"));
 //        System.out.println(s1.contains("he"));
+
+        // endsWith method()
+        // Phương thức endsWith() kiểm tra nếu chuỗi này kết thúc với hậu tố nhất định. Nó trả về true nếu chuỗi này kết thúc với hậu tố đã cho, nếu khác thì trả về false.
+        String s1 = "Hello World";
+        System.out.println(s1.endsWith("d"));
+        System.out.println(s1.endsWith("ld"));
+        System.out.println(s1.endsWith("orld"));
+        System.out.println(s1.endsWith("rld"));
+        System.out.println(s1.endsWith("World"));
+        System.out.println(s1.endsWith("Hello World"));
+        System.out.println(s1.endsWith("o World"));
     }
 }
