@@ -100,13 +100,13 @@ public class Main {
         // srcEnd : vị trí cuối cùng sao chép
         // mảng được sao chép
         // dstBegin : vị trí bắt đầu gắn vào
-        String str = "hello Java how are you?";
-        char[] ch = new char[4];
-        try {
-            str.getChars(6, 10, ch, 0);
-            System.out.println(ch);
-        }catch (Exception e){
-            System.out.println(e);
-        }
+//        String str = "hello Java how are you?";
+//        char[] ch = new char[4];
+//        try {
+//            str.getChars(6, 10, ch, 0);
+//            System.out.println(ch);
+//        }catch (Exception e){
+//            System.out.println(e);
+//        }
     }
 }
