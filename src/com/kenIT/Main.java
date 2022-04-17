@@ -22,10 +22,17 @@ public class Main {
 
         // concat method()
         //Phương thức concat() nối thêm chuỗi được chỉ định vào cuối chuỗi đã cho.
+//        String s1 = "Hello World";
+//        String s2 = "VN";
+//       s1 = s1.concat(s2);
+//        System.out.println(s1);
+        // contains method()
+        // Phương thức contains() tìm kiếm chuỗi ký tự trong chuỗi này. Nó trả về true nếu chuỗi các giá trị char được tìm thấy trong chuỗi này, nếu không trả về false.
+        // contains(): tìm kiếm tuyệt đối
         String s1 = "Hello World";
-        String s2 = "VN";
-       s1 = s1.concat(s2);
-        System.out.println(s1);
-
+        String s2 = "No way";
+        System.out.println(s1.contains(s2));
+        System.out.println(s1.contains("He"));
+        System.out.println(s1.contains("he"));
     }
 }
