@@ -29,10 +29,10 @@ public class Main {
         // contains method()
         // Phương thức contains() tìm kiếm chuỗi ký tự trong chuỗi này. Nó trả về true nếu chuỗi các giá trị char được tìm thấy trong chuỗi này, nếu không trả về false.
         // contains(): tìm kiếm tuyệt đối
-        String s1 = "Hello World";
-        String s2 = "No way";
-        System.out.println(s1.contains(s2));
-        System.out.println(s1.contains("He"));
-        System.out.println(s1.contains("he"));
+//        String s1 = "Hello World";
+//        String s2 = "No way";
+//        System.out.println(s1.contains(s2));
+//        System.out.println(s1.contains("He"));
+//        System.out.println(s1.contains("he"));
     }
 }
