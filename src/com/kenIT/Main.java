@@ -88,10 +88,10 @@ public class Main {
 //        System.out.println(sf3);
 
         // getBytes method
-        String s1 = "AABC";
-        byte[] barr = s1.getBytes();
-        for (int i = 0; i < barr.length; i++) {
-            System.out.println(barr[i]);
-        }
+//        String s1 = "AABC";
+//        byte[] barr = s1.getBytes();
+//        for (int i = 0; i < barr.length; i++) {
+//            System.out.println(barr[i]);
+//        }
     }
 }
