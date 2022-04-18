@@ -9,6 +9,8 @@ public class Main {
 //        char ch = method.charAt(1);
 //        System.out.println(ch);
 
+
+
         // compareTo method
         //Phương thức compareTo() so sánh các chuỗi cho trước với chuỗi hiện tại theo thứ tự từ điển. Nó trả về số dương, số âm hoặc 0.
         //Nếu chuỗi đầu tiên lớn hơn chuỗi thứ hai, nó sẽ trả về số dương (chênh lệch giá trị ký tự). Nếu chuỗi đầu tiên nhỏ hơn chuỗi thứ hai, nó sẽ trả về số âm và nếu chuỗi đầu tiên là bằng chuỗi thứ hai, nó trả về 0.
@@ -19,6 +21,8 @@ public class Main {
 //        System.out.println(s1.compareTo(s2));
 //        System.out.println(s1.compareTo(s3));
 //        System.out.println(s1.compareTo(s4));
+
+
 
         // concat method()
         //Phương thức concat() nối thêm chuỗi được chỉ định vào cuối chuỗi đã cho.
@@ -35,6 +39,8 @@ public class Main {
 //        System.out.println(s1.contains("He"));
 //        System.out.println(s1.contains("he"));
 
+
+
         // endsWith method()
         // Phương thức endsWith() kiểm tra nếu chuỗi này kết thúc với hậu tố nhất định. Nó trả về true nếu chuỗi này kết thúc với hậu tố đã cho, nếu khác thì trả về false.
 //        String s1 = "Hello World";
@@ -46,9 +52,10 @@ public class Main {
 //        System.out.println(s1.endsWith("Hello World"));
 //        System.out.println(s1.endsWith("o World"));
 
+
+
         // equals method
         //Phương thức equals() so sánh hai chuỗi đưa ra dựa trên nội dung của chuỗi. Nếu hai chuỗi khác nhau nó trả về false. Nếu hai chuỗi bằng nhau nó trả về true.
-        //
         //Phương thức equals() của lớp String được ghi đè từ phương thức equals() của lớp Object.
 //        String s1 = "Hello World";
 //        String s2 = "hello world";
@@ -59,6 +66,8 @@ public class Main {
 //        System.out.println(s1.equals(s3));
 //        System.out.println(s1.equals(s4));
 //        System.out.println(s1.equals(s5));
+
+
 
         // equalsIgnoreCase method
         // Phương thức equalsIgnoreCase() so sánh hai chuỗi đưa ra dựa trên nội dung của chuỗi không phân biệt chữ hoa và chữ thường. Nếu hai chuỗi khác nhau nó trả về false. Nếu hai chuỗi bằng nhau nó trả về true.
@@ -72,11 +81,11 @@ public class Main {
 //        System.out.println(s1.equalsIgnoreCase(s4));
 //        System.out.println(s1.equalsIgnoreCase(s5));
 
+
+
         // format method
         //Phương thức formart() trả về một chuỗi được format theo miền địa phương.
-        //
         //Nếu bạn không chỉ định miền địa phương trong phương thức String.format(), nó sử dụng miền mặc bằng cách gọi phương thức Locale.getDefault().
-        //
         //Phương thức format() của ngôn ngữ java là giống như hàm sprintf() trong C và printf() trong Java.
 //        String name = "noo";
 //        String sf1 = String.format("name is %s", name);
@@ -87,12 +96,16 @@ public class Main {
 //        System.out.println(sf2);
 //        System.out.println(sf3);
 
+
+
         // getBytes method
 //        String s1 = "AABC";
 //        byte[] barr = s1.getBytes();
 //        for (int i = 0; i < barr.length; i++) {
 //            System.out.println(barr[i]);
 //        }
+
+
 
         // getChars method
         //Phương thức getChars() sao chép nội dung của chuỗi thành mảng Char cụ thể. Có 4 đối số truyền vào phương thức getChars().
@@ -108,6 +121,8 @@ public class Main {
 //        }catch (Exception e){
 //            System.out.println(e);
 //        }
+
+
 
         // indexOf method
         // Phương thức indexOf() trả về chỉ số của giá trị ký tự đã cho hoặc chuỗi con. Nếu không tìm thấy trả lại giá trị -1. Chỉ số (index) được đếm từ 0.
@@ -125,6 +140,8 @@ public class Main {
 //        int index3 = s1.indexOf("this");
 //        System.out.println(index3);
 
+
+
         //intern method
         //Phương thức intern() có thể được sử dụng để trả về chuỗi từ Pool chứa hằng số chuỗi khi nó được tạo bởi từ khóa new.
 //        String s1 = new String("hello");
@@ -134,9 +151,9 @@ public class Main {
 //        System.out.println(s2 == s3);
 
 
+
         // isEmpty method
         //Phương thức isEmpty() khi chuỗi trống trả về true, ngược lại trả về false.
-        //
         //Phương thức isEmpty() của lớp String được tích hợp từ phiên bản JDK 1.6.
 //        String s1 = "";
 //        String s2 = "hello";
@@ -144,10 +161,12 @@ public class Main {
 //        System.out.println(s2.isEmpty());
 
 
+
         // join method
         //Phương thức join() trả về một chuỗi được nối với nhau bởi dấu phân tách. Trong phương thức join chuỗi, dấu phân cách được sử dụng cho mỗi chuỗi được nối. Trong trượng hợp chuỗi = null, giá trị "null" được thêm vào. Phương thức join() được tích hợp từ JDK 1.8
 //        String s1 = String.join(",","wel","wel");
 //        System.out.println(s1);
+
 
 
         // lastIndexOf method
@@ -157,16 +176,17 @@ public class Main {
 //        System.out.println(index);
 
 
+
         // length method
         //Phương thức length () trả về độ dài của chuỗi (tổng số ký tự theo mã unicode).
 //        String s1 = "Ronaldo";
 //        System.out.println(s1.length());
 
+
+
         // replace method
         //Phương thức replace() được sử dụng để thay thế tất cả các ký tự hoặc chuỗi cũ thành ký tự hoặc chuỗi mới.
-        //
         //Phương thức replace() được tích hợp từ JDK 1.5.
-
 //        String s1 = "I am buddhist";
 //        s1 =s1.replace('t','s');
 //        System.out.println(s1);
@@ -174,6 +194,8 @@ public class Main {
 //        String s2 = "I am buddhist";
 //        s2 = s2.replace("no","is");
 //        System.out.println(s2);
+
+
 
         // replaceAll method
         //Phương thức replaceAll() trả về một chuỗi thay thế tất cả các chuỗi ký tự phù hợp với regex.
@@ -183,6 +205,8 @@ public class Main {
 //        s2 = s2.replaceAll("can",s1);
 //        System.out.println(s1);
 //        System.out.println(s2);
+
+
 
         // split method
         //Phương thức split() tách chuỗi này theo biểu thức chính quy(regular expression) và trả về mảng chuỗi.
@@ -198,6 +222,8 @@ public class Main {
 //            System.out.println(w);
 //        }
 
+
+
         //startsWith method
         //Phương thức startsWith() được sử dụng để kiểm tra tiền tố của chuỗi có khớp với giá trị tiền tố đã nhập không, nếu đúng trả về true, sai trả về false.
 //        String s1 = "Welcome to Java";
@@ -205,13 +231,16 @@ public class Main {
 //        System.out.println(s1.startsWith("Welcome"));
 //        System.out.println(s1.startsWith("Welcome",0));
 
+
+
         // substring method
         //Phương thức subString() trả về chuỗi con của một chuỗi.
-        //
         //Chúng ta truyền chỉ số bắt đầu và chỉ số kết thúc cho phương thức subString(), với chỉ số bắt đầu tính từ 0 và chỉ số kết thúc tính từ 1.
 //        String s1 = "Welcome to Java";
 //        System.out.println(s1.substring(0,2));
 //        System.out.println(s1.substring(0));
+
+
 
         //toCharArray method
         //Phương thức toCharArray() được sử dụng để chuyển đổi chuỗi thành các mảng ký tự. Nó trả về một mảng ký từ có độ dài tương đương độ dài của chuỗi.
@@ -222,34 +251,36 @@ public class Main {
 //        }
 
 
+
         //toLowerCase method
         //Phương thức toLowerCase() được sử dụng để chuyển chuỗi về dạng chữ thường.
-        //
         //Phương thức toLowerCase() hoạt động giống y chang phương thức toLowerCase(Locale.getDefault()). Nó sử dụng locale mặc định.
 //        String s1 = "HELLO stRIng";
 //        String s1lower = s1.toLowerCase();
 //        System.out.println(s1lower);
 
 
+
         //toUpperCase method
         //Phương thức toUpperCase() được sử dụng để chuyển chuỗi về dạng chữ hoa.
-        //
         //Phương thức toUpperCase() hoạt động giống y chang phương thức toUpperCase(Locale.getDefault()). Nó sử dụng locale mặc định.
 //        String s1 = "HELLO stRIng";
 //        String s1lower = s1.toUpperCase();
 //        System.out.println(s1lower);
 
 
+
+
         //trim method
         //Phương thức trim() được sử dụng để xóa khoảng trẳng ở đầu và cuối chuỗi. Giá trị unicode của khoảng trắng là '\u0020'. Phương thức trim() kiểm tra giá trị unicode trước và sau chuỗi, nếu tồn tại thì xóa bỏ khoảng trắng đi và trả về chuỗi không có khoảng trắng ở đầu và cuối.
-//
 //        String s1 = "  hello string   ";
 //        System.out.println(s1);
 //        System.out.println(s1.trim());
 
+
+
         //valueOf method
         //Phương thức valueOf() được sử dụng để chuyển đối kiểu dữ liệu khác thành chuỗi. Bằng việc sử dụng phương thức valueOf(), bạn có thể chuyển int thành chuỗi, long thành chuỗi, boolean thành chuỗi, float thành chuỗi, double thành chuỗi, char thành chuỗi, mảng char thành chuỗi, đối tượng thành chuỗi.
-
 //        int i = 10;
 //        String s1 = String.valueOf(i);
 //        System.out.println(s1);
