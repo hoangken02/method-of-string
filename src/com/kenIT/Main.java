@@ -161,6 +161,19 @@ public class Main {
         //Phương thức length () trả về độ dài của chuỗi (tổng số ký tự theo mã unicode).
 //        String s1 = "Ronaldo";
 //        System.out.println(s1.length());
+
+        // replace method
+        //Phương thức replace() được sử dụng để thay thế tất cả các ký tự hoặc chuỗi cũ thành ký tự hoặc chuỗi mới.
+        //
+        //Phương thức replace() được tích hợp từ JDK 1.5.
+
+        String s1 = "I am buddhist";
+        s1 =s1.replace('t','s');
+        System.out.println(s1);
+
+        String s2 = "I am buddhist";
+        s2 = s2.replace("no","is");
+        System.out.println(s2);
     }
 }
 
