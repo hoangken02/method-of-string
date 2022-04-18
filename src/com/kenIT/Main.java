@@ -133,5 +133,15 @@ public class Main {
 //        System.out.println(s1 == s2);
 //        System.out.println(s2 == s3);
 
+
+        // isEmpty method
+        //Phương thức isEmpty() khi chuỗi trống trả về true, ngược lại trả về false.
+        //
+        //Phương thức isEmpty() của lớp String được tích hợp từ phiên bản JDK 1.6.
+//        String s1 = "";
+//        String s2 = "hello";
+//        System.out.println(s1.isEmpty());
+//        System.out.println(s2.isEmpty());
     }
 }
+
