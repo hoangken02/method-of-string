@@ -148,6 +148,13 @@ public class Main {
         //Phương thức join() trả về một chuỗi được nối với nhau bởi dấu phân tách. Trong phương thức join chuỗi, dấu phân cách được sử dụng cho mỗi chuỗi được nối. Trong trượng hợp chuỗi = null, giá trị "null" được thêm vào. Phương thức join() được tích hợp từ JDK 1.8
 //        String s1 = String.join(",","wel","wel");
 //        System.out.println(s1);
+
+
+        // lastIndexOf method
+        //Phương thức lastIndexOf() trả vể chỉ số cuối của ký tự hoặc chuỗi con. Nếu không tìm thấy trả về -1. Giá trị index được tính từ 0.
+        String s1 = "this is index of example";
+        int index = s1.lastIndexOf("e");
+        System.out.println(index);
     }
 }
 
