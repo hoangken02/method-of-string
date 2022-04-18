@@ -109,5 +109,20 @@ public class Main {
 //            System.out.println(e);
 //        }
 
+        // indexOf method
+        // Phương thức indexOf() trả về chỉ số của giá trị ký tự đã cho hoặc chuỗi con. Nếu không tìm thấy trả lại giá trị -1. Chỉ số (index) được đếm từ 0.
+        String s1 = "this is index of example";
+
+        //Truyền vào giá trị Char
+        int index1 = s1.indexOf('i');
+        System.out.println(index1);
+
+        //Truyền vào chuỗi con và chỉ số bắt đầu
+        int index2 = s1.indexOf("is",4);
+        System.out.println(index2);
+
+        //Truyền vào chuỗi con
+        int index3 = s1.indexOf("this");
+        System.out.println(index3);
     }
 }
