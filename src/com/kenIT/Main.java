@@ -205,6 +205,13 @@ public class Main {
 //        System.out.println(s1.startsWith("Welcome"));
 //        System.out.println(s1.startsWith("Welcome",0));
 
+        // substring method
+        //Phương thức subString() trả về chuỗi con của một chuỗi.
+        //
+        //Chúng ta truyền chỉ số bắt đầu và chỉ số kết thúc cho phương thức subString(), với chỉ số bắt đầu tính từ 0 và chỉ số kết thúc tính từ 1.
+        String s1 = "Welcome to Java";
+        System.out.println(s1.substring(0,2));
+        System.out.println(s1.substring(0));
     }
 }
 
