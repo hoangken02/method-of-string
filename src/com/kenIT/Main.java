@@ -242,10 +242,10 @@ public class Main {
 
         //trim method
         //Phương thức trim() được sử dụng để xóa khoảng trẳng ở đầu và cuối chuỗi. Giá trị unicode của khoảng trắng là '\u0020'. Phương thức trim() kiểm tra giá trị unicode trước và sau chuỗi, nếu tồn tại thì xóa bỏ khoảng trắng đi và trả về chuỗi không có khoảng trắng ở đầu và cuối.
-
-        String s1 = "  hello string   ";
-        System.out.println(s1);
-        System.out.println(s1.trim());
+//
+//        String s1 = "  hello string   ";
+//        System.out.println(s1);
+//        System.out.println(s1.trim());
 
 
     }
