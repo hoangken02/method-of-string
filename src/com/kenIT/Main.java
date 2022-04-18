@@ -200,10 +200,10 @@ public class Main {
 
         //startsWith method
         //Phương thức startsWith() được sử dụng để kiểm tra tiền tố của chuỗi có khớp với giá trị tiền tố đã nhập không, nếu đúng trả về true, sai trả về false.
-        String s1 = "Welcome to Java";
-        System.out.println(s1.startsWith("W"));
-        System.out.println(s1.startsWith("Welcome"));
-        System.out.println(s1.startsWith("Welcome",0));
+//        String s1 = "Welcome to Java";
+//        System.out.println(s1.startsWith("W"));
+//        System.out.println(s1.startsWith("Welcome"));
+//        System.out.println(s1.startsWith("Welcome",0));
 
     }
 }
