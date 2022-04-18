@@ -220,6 +220,15 @@ public class Main {
 //        for (int i = 0; i < ch.length; i++) {
 //            System.out.println(ch[i]);
 //        }
+
+
+        //toLowerCase method
+        //Phương thức toLowerCase() được sử dụng để chuyển chuỗi về dạng chữ thường.
+        //
+        //Phương thức toLowerCase() hoạt động giống y chang phương thức toLowerCase(Locale.getDefault()). Nó sử dụng locale mặc định.
+        String s1 = "HELLO stRIng";
+        String s1lower = s1.toLowerCase();
+        System.out.println(s1lower);
     }
 }
 
