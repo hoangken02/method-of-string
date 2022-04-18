@@ -247,7 +247,12 @@ public class Main {
 //        System.out.println(s1);
 //        System.out.println(s1.trim());
 
+        //valueOf method
+        //Phương thức valueOf() được sử dụng để chuyển đối kiểu dữ liệu khác thành chuỗi. Bằng việc sử dụng phương thức valueOf(), bạn có thể chuyển int thành chuỗi, long thành chuỗi, boolean thành chuỗi, float thành chuỗi, double thành chuỗi, char thành chuỗi, mảng char thành chuỗi, đối tượng thành chuỗi.
 
+        int i = 10;
+        String s1 = String.valueOf(i);
+        System.out.println(s1);
     }
 }
 
