@@ -186,17 +186,17 @@ public class Main {
 
         // split method
         //Phương thức split() tách chuỗi này theo biểu thức chính quy(regular expression) và trả về mảng chuỗi.
-        String s1 = "java is true false true";
-        String[] words = s1.split("\\s");
-        for (String w:
-             words) {
-            System.out.println(w);
-        }
-
-        // limit chia theo số lần có thể chia
-        for (String w : s1.split("\\s", 2)) {
-            System.out.println(w);
-        }
+//        String s1 = "java is true false true";
+//        String[] words = s1.split("\\s");
+//        for (String w:
+//             words) {
+//            System.out.println(w);
+//        }
+//
+//        // limit chia theo số lần có thể chia
+//        for (String w : s1.split("\\s", 2)) {
+//            System.out.println(w);
+//        }
     }
 }
 
