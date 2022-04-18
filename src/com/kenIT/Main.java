@@ -229,6 +229,15 @@ public class Main {
 //        String s1 = "HELLO stRIng";
 //        String s1lower = s1.toLowerCase();
 //        System.out.println(s1lower);
+
+
+        //toUpperCase method
+        //Phương thức toUpperCase() được sử dụng để chuyển chuỗi về dạng chữ hoa.
+        //
+        //Phương thức toUpperCase() hoạt động giống y chang phương thức toUpperCase(Locale.getDefault()). Nó sử dụng locale mặc định.
+        String s1 = "HELLO stRIng";
+        String s1lower = s1.toUpperCase();
+        System.out.println(s1lower);
     }
 }
 
