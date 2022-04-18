@@ -152,9 +152,9 @@ public class Main {
 
         // lastIndexOf method
         //Phương thức lastIndexOf() trả vể chỉ số cuối của ký tự hoặc chuỗi con. Nếu không tìm thấy trả về -1. Giá trị index được tính từ 0.
-        String s1 = "this is index of example";
-        int index = s1.lastIndexOf("e");
-        System.out.println(index);
+//        String s1 = "this is index of example";
+//        int index = s1.lastIndexOf("e");
+//        System.out.println(index);
     }
 }
 
