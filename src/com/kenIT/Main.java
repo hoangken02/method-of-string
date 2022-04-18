@@ -167,13 +167,13 @@ public class Main {
         //
         //Phương thức replace() được tích hợp từ JDK 1.5.
 
-        String s1 = "I am buddhist";
-        s1 =s1.replace('t','s');
-        System.out.println(s1);
-
-        String s2 = "I am buddhist";
-        s2 = s2.replace("no","is");
-        System.out.println(s2);
+//        String s1 = "I am buddhist";
+//        s1 =s1.replace('t','s');
+//        System.out.println(s1);
+//
+//        String s2 = "I am buddhist";
+//        s2 = s2.replace("no","is");
+//        System.out.println(s2);
     }
 }
 
