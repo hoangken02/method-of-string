@@ -159,8 +159,8 @@ public class Main {
 
         // length method
         //Phương thức length () trả về độ dài của chuỗi (tổng số ký tự theo mã unicode).
-        String s1 = "Ronaldo";
-        System.out.println(s1.length());
+//        String s1 = "Ronaldo";
+//        System.out.println(s1.length());
     }
 }
 
