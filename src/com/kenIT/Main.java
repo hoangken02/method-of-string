@@ -177,12 +177,12 @@ public class Main {
 
         // replaceAll method
         //Phương thức replaceAll() trả về một chuỗi thay thế tất cả các chuỗi ký tự phù hợp với regex.
-        String s1 = "I am buddhist";
-        String s2 = "can";
-        s1 = s1.replaceAll("am","is");
-        s2 = s2.replaceAll("can",s1);
-        System.out.println(s1);
-        System.out.println(s2);
+//        String s1 = "I am buddhist";
+//        String s2 = "can";
+//        s1 = s1.replaceAll("am","is");
+//        s2 = s2.replaceAll("can",s1);
+//        System.out.println(s1);
+//        System.out.println(s2);
 
     }
 }
