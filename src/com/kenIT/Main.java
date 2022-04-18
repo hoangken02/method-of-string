@@ -155,6 +155,12 @@ public class Main {
 //        String s1 = "this is index of example";
 //        int index = s1.lastIndexOf("e");
 //        System.out.println(index);
+
+
+        // length method
+        //Phương thức length () trả về độ dài của chuỗi (tổng số ký tự theo mã unicode).
+        String s1 = "Ronaldo";
+        System.out.println(s1.length());
     }
 }
 
